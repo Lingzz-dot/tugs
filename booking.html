@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <title>Booking Tiket - Bioskop Kita</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Bioskop Kita</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Beranda</a></li>
+                <li><a href="listfilm.html">Daftar Film</a></li>
+                <li><a href="booking.html">Booking Tiket</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="booking">
+        <h2>Booking Tiket Anda</h2>
+            <label for="film">Pilih Film:</label>
+            <select id="film" name="film">
+                <option value="film1">The Wild Robot</option>
+                <option value="film2">Project SEKAI Movie</option>
+                <option value="film3">Venom: The Last Dance</option>
+            </select>
+
+            <label for="jumlah">Jumlah Tiket:</label>
+            <input type="number" id="jumlah" name="jumlah" min="1" max="10">
+            <button type="submit">submit</button>
+        </form>
+    </section>
+
+    <footer>
+    </footer>
+</body>
+</html>
